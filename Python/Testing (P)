@@ -1,1 +1,24 @@
+number = input("Please enter a number: ")
+#odd or even
+x= int(number)%2
+y= int(number)%4
+  
+if x == 0:
+  print(str(number) + " is an EVEN number.")
+else:
+  print(str(number) + " is an ODD number.")
+#greeting('even')
+#greeting_2('odd')
+#If the number is a multiple of 4
+if y == 0:
+  print(str(number) + " is also a multiple of 4 ")
+else:
+  print(str(number) + " is not a multiple of 4 ")
 
+#Ask the user for two numbers
+num = input("Number to check ")
+check = input("Number to divide by check ")
+if int(num)% int(check) == 0:
+  print (str(check) + " divides evenly into " + str(num))
+else:
+  print (str(check) + " does not divide evenly into " + str(num))
